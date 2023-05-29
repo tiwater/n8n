@@ -43,6 +43,20 @@ From the terminal, run:
 
 This command will download everything that is needed to start n8n. You can then access n8n and start building workflows by opening [http://localhost:5678](http://localhost:5678).
 
+## Start from local env
+
+To launch n8n from your local source code, run:
+
+`pnpm i`
+
+`pnpm build`
+
+`pnpm dev`
+
+or 
+
+`pnpm start`
+
 ## n8n cloud
 
 Sign-up for an [n8n cloud](https://www.n8n.io/cloud/) account.
